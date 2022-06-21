@@ -15,11 +15,12 @@ AB_OTA_POSTINSTALL_CONFIG += \
 
 # Boot control HAL
 PRODUCT_PACKAGES += \
-    android.hardware.boot@1.0-impl \
-    android.hardware.boot@1.0-service
+    android.hardware.boot@1.2-service \
+    android.hardware.boot@1.2-mtkimpl \
+    android.hardware.boot@1.2-mtkimpl.recovery
 
-PRODUCT_PACKAGES += \
-    bootctrl.mt6768
+PRODUCT_PACKAGES_DEBUG += \
+    bootctl
 
 PRODUCT_STATIC_BOOT_CONTROL_HAL := \
     bootctrl.mt6768 \
