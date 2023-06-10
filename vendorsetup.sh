@@ -46,8 +46,8 @@ if [ -f "$(gettop)/bootable/recovery/orangefox.cpp" ]; then
 		export FOX_BUILD_TYPE="Unofficial"
 
 		# Device info
-		export OF_AB_DEVICE=1
-		export OF_VIRTUAL_AB_DEVICE=1
+		export FOX_AB_DEVICE=1
+		export FOX_VIRTUAL_AB_DEVICE=1
 		export TARGET_DEVICE_ALT="selenes, eos"
 		
 		# OTA / DM-Verity / Encryption
