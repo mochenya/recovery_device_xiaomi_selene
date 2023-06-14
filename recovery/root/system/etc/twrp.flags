@@ -16,7 +16,7 @@
 /persistent         emmc      /dev/block/platform/bootdevice/by-name/frp                       flags=display="Persistent";backup=1;
 
 ## firmware
-/dtbo               emmc      /dev/block/platform/bootdevice/by-name/dtbo	               flags=slotselect;
+/dtbo               emmc      /dev/block/platform/bootdevice/by-name/dtbo	               flags=display="Dtbo";backup=1;flashimg=1;slotselect;
 /logo	            emmc      /dev/block/platform/bootdevice/by-name/logo	               flags=display="Logo";backup=1;flashimg=1;
 /expdb              emmc      /dev/block/platform/bootdevice/by-name/expdb
 /seccfg             emmc      /dev/block/platform/bootdevice/by-name/seccfg
