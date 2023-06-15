@@ -42,7 +42,7 @@ if [ -f "$(gettop)/bootable/recovery/orangefox.cpp" ]; then
 	if [ "$1" = "$FDEVICE" ] || [  "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 		# Version / Maintainer infos
 		export OF_MAINTAINER="fukiame"
-		export FOX_VERSION=R11.1_6
+		export FOX_VERSION=R11.1_2
 		export FOX_BUILD_TYPE="Unofficial"
 
 		# Device info
